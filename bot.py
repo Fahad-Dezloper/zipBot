@@ -4,10 +4,6 @@ from dotenv import load_dotenv
 import asyncio
 from telegram import Update, PhotoSize, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, ConversationHandler
-from google.oauth2.credentials import Credentials
-from googleapiclient.discovery import build
-from googleapiclient.http import MediaFileUpload
-from google.auth.transport.requests import Request
 from concurrent.futures import ThreadPoolExecutor
 
 
